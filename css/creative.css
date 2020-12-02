@@ -447,3 +447,17 @@ body {
   font-size: 10em;
   color: black;
 }
+.portfolio-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.app-icon {
+  transition: all 0.2s ease-in-out;
+}
+.app-icon img {
+  box-shadow: 5px 5px 20px #888888;
+}
+.app-icon:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
