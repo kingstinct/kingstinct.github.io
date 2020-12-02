@@ -443,3 +443,7 @@ body {
 .post-image {
   display: none !important;
 }
+.large-icon {
+  font-size: 10em;
+  color: black;
+}
