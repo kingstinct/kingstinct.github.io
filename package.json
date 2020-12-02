@@ -2,7 +2,11 @@
   "name": "robertherber.github.io",
   "version": "1.0.0",
   "homepage": "https://robertherber.github.io",
-  "author": "Robert Herber",
+  "author": {
+    "email": "robert@kingstinct.com",
+    "name": "Robert Herber",
+    "url": "https://kingstinct.com"
+  },
   "private": true,
   "license": {
     
