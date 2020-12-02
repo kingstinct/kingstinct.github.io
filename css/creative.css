@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap -  v1.0.0 (https://robertherber.github.io)
- * Copyright 2013-2020 Robert Herber
+ * Copyright 2013-2020 [object Object]
  * Licensed under  ()
  */
 html,
@@ -435,4 +435,11 @@ body {
   margin-top: -5px;
   margin-right: 5px;
   color: #F05F40;
+}
+.post-date {
+  top: 0px !important;
+  left: 7px !important;
+}
+.post-image {
+  display: none !important;
 }
