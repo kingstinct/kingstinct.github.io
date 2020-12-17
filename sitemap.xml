@@ -1,0 +1,44 @@
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://kingstinct.com/</loc>
+    <lastmod>2020-12-17T00:31:32+00:00</lastmod>
+    <image:image>
+      <image:loc>https://www.leveranstid.nu/group-of-people.jpg</image:loc>
+      <image:title>Leveranstid.nu</image:title>
+      <image:caption>Webapp för att snabbt hitta matkassen med snabbast leveranstid</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingstinct.com/img/portfolio/lyster-icon.png</image:loc>
+      <image:title>Lyster</image:title>
+      <image:caption>Task Management App for iOS, Android and the Web</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingstinct.com/img/portfolio/loco-icon.png</image:loc>
+      <image:title>Loco</image:title>
+      <image:caption>Food ordering app for both in-restaurant and take-way</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingstinct.com/img/portfolio/ica-klassikern.png</image:loc>
+      <image:title>ICA-Klassikern</image:title>
+      <image:caption>Utför En Svensk Klassiker under året och få belöningar från ICA</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingstinct.com/img/portfolio/gothia-cup.png</image:loc>
+      <image:title>Gothia Cup</image:title>
+      <image:caption>The official Gothia Cup App available on iOS and Android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingstinct.com/img/portfolio/gothia-innebandy.png</image:loc>
+      <image:title>Gothia Innebandy Cup</image:title>
+      <image:caption>The official Gothia Innebandy Cup App available on iOS and Android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingstinct.com/img/portfolio/partille-cup.png</image:loc>
+      <image:title>Partille Cup</image:title>
+      <image:caption>The official Partille Cup App available on iOS and Android</image:caption>
+    </image:image>
+  </url>
+</urlset>
