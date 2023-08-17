@@ -26,20 +26,5 @@
       <image:title>ICA-Klassikern</image:title>
       <image:caption>Utför En Svensk Klassiker under året och få belöningar från ICA</image:caption>
     </image:image>
-    <image:image>
-      <image:loc>https://kingstinct.com/img/portfolio/gothia-cup.png</image:loc>
-      <image:title>Gothia Cup</image:title>
-      <image:caption>The official Gothia Cup App available on iOS and Android</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://kingstinct.com/img/portfolio/gothia-innebandy.png</image:loc>
-      <image:title>Gothia Innebandy Cup</image:title>
-      <image:caption>The official Gothia Innebandy Cup App available on iOS and Android</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://kingstinct.com/img/portfolio/partille-cup.png</image:loc>
-      <image:title>Partille Cup</image:title>
-      <image:caption>The official Partille Cup App available on iOS and Android</image:caption>
-    </image:image>
   </url>
 </urlset>

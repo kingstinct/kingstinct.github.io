@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap -  v1.0.0 (https://robertherber.github.io)
- * Copyright 2013-2020 [object Object]
+ * Copyright 2013-2023 [object Object]
  * Licensed under  ()
  */
 html,
@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header.webp');
   text-align: center;
   color: white;
 }
