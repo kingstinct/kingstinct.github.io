@@ -68,7 +68,11 @@
     </script>
     <!-- End Matomo Code -->
 
-    <script async src="https://ackee.kingstinct.dev/tracker.js" data-ackee-server="https://ackee.kingstinct.dev" data-ackee-domain-id="96bcf44e-71d2-455f-9888-aa5d9ef0098e"></script>
+    <script async 
+        src="https://ackee.kingstinct.dev/tracker.js" 
+        data-ackee-server="https://ackee.kingstinct.dev" 
+        data-ackee-opts='{ "ignoreLocalhost": false }' 
+        data-ackee-domain-id="96bcf44e-71d2-455f-9888-aa5d9ef0098e"></script>
 
     <script defer data-domain="kingstinct.com/react-native-healthkit" src="http://plausible.kingstinct.dev/js/script.js"></script>
 
@@ -355,6 +359,13 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/ackee-tracker-consent@1.2.0/dist/ackee-tracker-consent.min.js"></script>
+
+    <script>
+        AckeeTrackerOptIn.consent('https://ackee.kingstinct.dev', '96bcf44e-71d2-455f-9888-aa5d9ef0098e')
+    </script>
 
 </body>
 
