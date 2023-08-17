@@ -71,12 +71,41 @@
     <script async 
         src="https://ackee.kingstinct.dev/tracker.js" 
         data-ackee-server="https://ackee.kingstinct.dev" 
-        data-ackee-opts='{ "ignoreLocalhost": false }' 
+        data-ackee-opts='{ "ignoreLocalhost": true }' 
         data-ackee-domain-id="96bcf44e-71d2-455f-9888-aa5d9ef0098e"></script>
 
     <script defer data-domain="kingstinct.com/react-native-healthkit" src="http://plausible.kingstinct.dev/js/script.js"></script>
 
     <script async defer data-website-id="61c25273-16a4-4350-8d26-0b3d8922e228" src="https://umami.kingstinct.dev/umami.js"></script>
+    <script type='text/javascript'>
+        //some default pre init
+        var Countly = Countly || {};
+        Countly.q = Countly.q || [];
+        
+        //provide countly initialization parameters
+        Countly.app_key = '6a9cea64e914bfc303542f29b35a988c62fc7782';
+        Countly.url = 'https://countly.kingstinct.dev/';
+        Countly.require_consent = true;
+        
+        Countly.q.push(['track_sessions']);
+        Countly.q.push(['track_pageview']);
+        Countly.q.push(['track_clicks']);
+        Countly.q.push(['track_scrolls']);
+        Countly.q.push(['track_errors']);
+        Countly.q.push(['track_links']);
+        Countly.q.push(['track_forms']);
+        Countly.q.push(['collect_from_forms']);
+        
+        //load countly script asynchronously
+        (function() {
+           var cly = document.createElement('script'); cly.type = 'text/javascript';
+           cly.async = true;
+           //enter url of script here
+           cly.src = 'https://cdnjs.cloudflare.com/ajax/libs/countly-sdk-web/20.4.0/countly.min.js';
+           cly.onload = function(){Countly.init()};
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+        })();
+        </script>
 
 </head>
 
@@ -366,6 +395,8 @@
     <script>
         AckeeTrackerOptIn.consent('https://ackee.kingstinct.dev', '96bcf44e-71d2-455f-9888-aa5d9ef0098e')
     </script>
+
+<noscript><img src='https://countly.kingstinct.dev//pixel.png?app_key=6a9cea64e914bfc303542f29b35a988c62fc7782&begin_session=1'/></noscript>
 
 </body>
 
